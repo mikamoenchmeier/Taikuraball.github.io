@@ -1,0 +1,127 @@
+/* index.css */
+body {
+    font-family: 'Georgia', serif; /* More elegant font */
+    background-color: #0d1b2a; /* Dark blue background representing the night sky */
+    color: #e0e1dd; /* Light color for text to contrast against dark background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1b263b; /* Slightly lighter blue for header */
+    text-align: center;
+    padding: 40px 0; /* Increase padding for more luxurious feel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add some shadow for depth */
+}
+
+header h1 {
+    font-size: 5em; /* Increase font size */
+    color: #ffd700; /* Gold color to symbolize stars */
+    margin: 0;
+    letter-spacing: 2px; /* Add letter spacing for a touch of elegance */
+}
+
+nav {
+    background-color: #1f4068; /* Mid-tone blue for navigation */
+    padding: 20px 0; /* Increase padding */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Change to inline-block for more control */
+    margin: 0 25px; /* Increase margin between items */
+}
+
+nav ul li a {
+    color: #e0e1dd;
+    text-decoration: none;
+    font-size: 1.3em; /* Increase font size */
+    font-weight: bold;
+    padding: 10px 20px; /* Add padding to links */
+    border-radius: 5px; /* Rounded corners */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Hover effect to highlight link */
+    background-color: #e0e1dd33; /* Light background on hover */
+}
+
+image {
+    
+    
+}
+
+main {
+    max-width: 900px; /* Increase max width */
+    margin: 40px auto; /* Increase top and bottom margin */
+    padding: 0 30px; /* Increase padding */
+    background-color: #1b263b; /* Add a background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    border-radius: 10px; /* Rounded corners for a softer look */
+
+}
+
+section1 h1 {
+    font-size: 4em; /* Increase font size */
+    color: #ffd700; /* Gold color to symbolize stars */
+    margin: 0;
+    letter-spacing: 2px; /* Add letter spacing for a touch of elegance */
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 10px ridge #ffd700;
+    
+}
+
+section {
+    margin-bottom: 60px; /* Increase bottom margin */
+}
+
+section h2 {
+    font-size: 2.5em; /* Increase font size */
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Match the header color */
+}
+
+section p, section ul {
+    font-size: 1.2em; /* Slightly larger font size */
+    line-height: 1.8; /* Increase line height for better readability */
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #1b263b;
+    text-align: center;
+    padding: 20px 0; /* Increase padding */
+    position: relative; /* Change position from fixed to relative */
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #e0e1dd;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+}
