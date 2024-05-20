@@ -5,6 +5,11 @@ body {
     color: #e0e1dd; /* Light color for text to contrast against dark background */
     margin: 0;
     padding: 0;
+    background-image: url(felix-mittermeier-Knwea-mLGAg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
@@ -52,14 +57,11 @@ nav ul li a:hover {
     background-color: #e0e1dd33; /* Light background on hover */
 }
 
-image {
-    
-    
-}
+
 
 main {
     max-width: 900px; /* Increase max width */
-    margin: 40px auto; /* Increase top and bottom margin */
+    margin: 300px auto; /* Increase top and bottom margin */
     padding: 0 30px; /* Increase padding */
     background-color: #1b263b; /* Add a background color for contrast */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
@@ -81,6 +83,7 @@ section1 h1 {
 
 section {
     margin-bottom: 60px; /* Increase bottom margin */
+    padding-top: 10px;
 }
 
 section h2 {
